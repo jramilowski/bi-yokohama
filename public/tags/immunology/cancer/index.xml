@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Immunology/Cancer on </title>
+    <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/immunology/cancer/</link>
+    <description>Recent content in Immunology/Cancer on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/immunology/cancer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/research/intro/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/research/intro/</guid>
+      <description>Our projects are biologically-driven with the aim to understand biological processes at the molecular &amp;amp; cellular level, so to ultimately help cure diseases and enhance the human life. We use cutting-edge computational algorithms, pipelines and our high-spec computational platform to analyze own and public NGS &amp;amp; clinical data. See also our papers.
+Biology  COVID-19 pathology &amp;amp; cancers immune cells differentiation &amp;amp; gene regulation long non-coding RNAs, 3D genome structure, cell–cell communication  Methods &amp;amp; Technologies  statistics, ML, AI/deep-learning (starting) Linux, R, Python, nf-core pipelines RNA-seq, Hi-C, ChIP-seq, ATAC-seq, single cell data  Current Projects  Understanding pathology of COVID-19 using NGS and clinical data 3D genome structure and lncRNAs in myeloid cells differentiation Pancreatic cancer: molecular mechanism of the disease Biologically-informed deep neural networks (new) Other collaborative projects   Want to know more details?</description>
+    </item>
+    
+  </channel>
+</rss>

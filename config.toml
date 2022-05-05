@@ -1,0 +1,84 @@
+baseURL = "https://www-user.yokohama-cu.ac.jp/~bioinfo/"
+
+title = ""
+description = '' 
+theme = "minimal-jr"
+disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Calin Tataru"
+    description = ""
+    githubUsername = "#"
+    accent = 'green'
+    #accent = "#182fdb"
+    showBorder = true
+    backgroundColor = "#f7f9fc"
+    font = "helvetica neue" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[main]]
+  name = ""
+  pre = '<button type="button">Plan a free meeting!</button>'
+  url = "#free-meeting"
+  weight = 100
+
+[[menu.main]]
+    name = "WELCOME!"
+    url = '/'
+    weight = 1
+
+[[menu.main]]
+    url = "/intro/"
+    name = "BI Lab"
+    weight = 2
+
+[[menu.main]]
+    url = "/members/"
+    name = "Members"
+    weight = 3
+
+[[menu.main]]
+    url = "/research/intro"
+    name = "Research"
+    weight = 4
+
+[[menu.main]]
+    url = "/teaching/intro"
+    name = "Teaching"
+    weight = 5
+
+[[menu.main]]
+    url = "/recruitment/"
+    name = "Recruitment"
+    weight = 7
+
+[[menu.main]]
+    url = "/news/"
+    name = "News"
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "mailto:jordanr@yokohama-cu.ac.jp"
+    name = "fas fa-envelope"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/jramilowski/"
+    name = "fab fa-github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://www.google.com/maps/place/Yokohama+City+University+School+of+Medicine/@35.34343,139.6493063,17z/data=!3m1!4b1!4m5!3m4!1s0x60184181b7f551a3:0x5df70ee57308952e!8m2!3d35.34343!4d139.651495"
+    name = "fa fa-map-marker-alt"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.yokohama-cu.ac.jp/amedrc/section/support/bioinfomatics2.html"
+    name = "fas fa-globe"
+    weight = 4

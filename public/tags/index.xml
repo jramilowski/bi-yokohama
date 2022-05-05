@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>domestic</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/domestic/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/domestic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>international</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/international/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/international/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms &amp; AI</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/algorithms-ai/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/algorithms-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NGS Data Analysis</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/ngs-data-analysis/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/ngs-data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Immunology/Cancer</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/immunology/cancer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/immunology/cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R/Python</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/r/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/r/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

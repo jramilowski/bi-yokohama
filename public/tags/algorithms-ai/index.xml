@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms &amp; AI on </title>
+    <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/algorithms-ai/</link>
+    <description>Recent content in Algorithms &amp; AI on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 29 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www-user.yokohama-cu.ac.jp/~bioinfo/tags/algorithms-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/research/intro/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/research/intro/</guid>
+      <description>Our projects are biologically-driven with the aim to understand biological processes at the molecular &amp;amp; cellular level, so to ultimately help cure diseases and enhance the human life. We use cutting-edge computational algorithms, pipelines and our high-spec computational platform to analyze own and public NGS &amp;amp; clinical data. See also our papers.
+Biology  COVID-19 pathology &amp;amp; cancers immune cells differentiation &amp;amp; gene regulation long non-coding RNAs, 3D genome structure, cell–cell communication  Methods &amp;amp; Technologies  statistics, ML, AI/deep-learning (starting) Linux, R, Python, nf-core pipelines RNA-seq, Hi-C, ChIP-seq, ATAC-seq, single cell data  Current Projects  Understanding pathology of COVID-19 using NGS and clinical data 3D genome structure and lncRNAs in myeloid cells differentiation Pancreatic cancer: molecular mechanism of the disease Biologically-informed deep neural networks (new) Other collaborative projects   Want to know more details?</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://www-user.yokohama-cu.ac.jp/~bioinfo/teaching/intro/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www-user.yokohama-cu.ac.jp/~bioinfo/teaching/intro/</guid>
+      <description>All our courses are online and are open to YCU Students (free), Faculty Members, and to YCU Collaborators.
+Join our FY-2022 Courses!
+ *01. Practical Bioinformatics (English) this course helps our medical students and experimental researchers to learn basic theoretical and practical aspects of Next Generation Sequencing (NGS) Data Analysis. Students learn to write, debug and execute simple and reproducible R codes using RStudio and perform most common NGS data functional analysis.</description>
+    </item>
+    
+  </channel>
+</rss>

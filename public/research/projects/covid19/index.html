@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>COVID-19 Pathogenesis</title>
+        
+        <style>
+
+    html body {
+        font-family: 'helvetica neue', sans-serif;
+        background-color: #f7f9fc;
+    }
+
+    :root {
+        --accent: green;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://www-user.yokohama-cu.ac.jp/~bioinfo/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=helvetica%20neue">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.95.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">COVID-19 Pathogenesis</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/~bioinfo/">WELCOME!</a></li>
+                            
+                                <li><a href="/~bioinfo/intro/">BI Lab</a></li>
+                            
+                                <li><a href="/~bioinfo/members/">Members</a></li>
+                            
+                                <li><a href="/~bioinfo/research/intro">Research</a></li>
+                            
+                                <li><a href="/~bioinfo/teaching/intro">Teaching</a></li>
+                            
+                                <li><a href="/~bioinfo/recruitment/">Recruitment</a></li>
+                            
+                                <li><a href="/~bioinfo/news/">News</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:jordanr@yokohama-cu.ac.jp"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jramilowski/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.google.com/maps/place/Yokohama&#43;City&#43;University&#43;School&#43;of&#43;Medicine/@35.34343,139.6493063,17z/data=!3m1!4b1!4m5!3m4!1s0x60184181b7f551a3:0x5df70ee57308952e!8m2!3d35.34343!4d139.651495"><i class="fa fa-map-marker-alt"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.yokohama-cu.ac.jp/amedrc/section/support/bioinfomatics2.html"><i class="fas fa-globe"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>COVID-19 Pathogenesis</h2>
+        <h5>current projects</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><h4 id="understanding-pathology-of-covid-19-using-ngs-and-clinical-data">Understanding pathology of COVID-19 using NGS and clinical data</h4>
+<p>Since the initial outbreak in December 2019, COVID-19 pandemic resulted in over 500 million infections worldwide while claiming more than 6 million lives (as of April 2022). Despite that a large majority of individuals infected with SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus-2) display only mild disease symptoms, it remains to be determined why others become critically, or even terminally, ill.</p>
+<p>Extensive research dedicated to understanding COVID-19 disease pathology have established that disease in critical patients is accompanied by:</p>
+<ul>
+<li>excessive infiltration of monocytes, macrophages and T cells.</li>
+<li>systematic cytokine storm</li>
+<li>pulmonary oedema and pneumonia</li>
+<li>widespread inflammation and multi-organ damage</li>
+</ul>
+<p>Despite commonly observed immune dysregulation characteristic to critical COVID-19 patients, molecular mechanisms controlling disease progression and its outcome still remain unclear.</p>
+<h1 id="heading"></h1>
+<h4 id="methods">Methods</h4>
+<p>By using own and public scRNA-seq we try to understand roles of various immune cells and the underlying changes in their gene expression programs during COVID-19 disease. In particular, we want to elucidate how the transcription factors (TFs) downstream of the viral endosomal and cytoplasmic RNA sensors and their targets work with a main goal to develop safe and effective therapeutics.
+We also use proteomics, lipidomics and clinical data to better understand the underlying mechanism of COVID-19 severity.</p>
+<h1 id="heading-1"></h1>
+<p><strong>Other projects</strong>: <a href="../hic">immune cells differentiation</a>, <a href="../cancer">pancreatic cancers</a>, <a href="../deeplearn">AI &amp; Biology</a></p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
